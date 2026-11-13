@@ -1,0 +1,11 @@
+{
+  "name": "genie",
+  "version": "0.1.0",
+  "description": "Genie — Find ways to improve the next CHC implementation Built on the canopy agent operating model: a turn-driven persona with reads-free / writes-gated guarding, with outbound actions that follow the turn mode.",
+  "author": {
+    "name": "Kanwalpreet Kaur",
+    "email": "kkaur@dimagi.com"
+  },
+  "license": "MIT",
+  "keywords": ["agent", "canopy", "genie"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "genie",
+  "description": "Genie — Find ways to improve the next CHC implementation",
+  "owner": {
+    "name": "Kanwalpreet Kaur",
+    "email": "kkaur@dimagi.com"
+  },
+  "metadata": {
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "genie",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Genie — Find ways to improve the next CHC implementation"
+    }
+  ]
+}

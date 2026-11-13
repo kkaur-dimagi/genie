@@ -1,0 +1,21 @@
+name: Tests
+
+# Runs the agent's own tests, including tests/test_docs_current_state.py (the fleet-standard
+# guard that keeps docs and skills on current state). merge_group is for repos with a merge queue.
+
+on:
+  pull_request:
+  merge_group:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - run: python -m pytest -q tests
